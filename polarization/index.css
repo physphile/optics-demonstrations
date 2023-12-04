@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css');
+
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Roboto, sans-serif;
+	line-height: 161%;
+	hyphens: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: Montserrat, sans-serif;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+
+li {
+	list-style-position: inside;
+}
+
+hr {
+	border-radius: 999px;
+	color: var(--color-primary);
+	opacity: 32%;
+	margin: 16px 0;
+	position: relative;
+	overflow: visible;
+}
+
+hr::after {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	background: var(--color-primary);
+	height: 12px;
+	width: 12px;
+	border-radius: 999px;
+	margin: 0 auto;
+	transform: translate(-50%, -50%);
+}
+
+dt {
+	font-weight: bold;
+}
+
+:root {
+	--color-primary: #990000;
+	--color-primary-10: #99000010;
+}
+
+.katex {
+	font-weight: inherit;
+}
