@@ -5,11 +5,7 @@ import './index.css';
 <template>
 	<div class="layout">
 		<GPNavigation class="navigation" />
-		<div>
-			<main>
-				<NuxtPage />
-			</main>
-		</div>
+		<NuxtPage />
 	</div>
 </template>
 
@@ -18,9 +14,8 @@ import './index.css';
 	display: flex;
 }
 
-main {
-	width: 100%;
-	margin: 0 auto;
-	padding: 16px 8px;
+.content {
+	width: clamp(100%, 100%, 100%);
+	overflow: hidden;
 }
 </style>

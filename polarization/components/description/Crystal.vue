@@ -7,14 +7,14 @@
 		<li>
 			Cлева вверху &mdash; прохождение световой волны произвольной (регулируемой) поляризации
 			через пластину
-			<NuxtLink to="/descriptions#oneaxecrist">одноосного кристалла</NuxtLink> регулируемой
-			ориентации и толщины (<NuxtLink to="/descriptions#opticalaxe">оптическая ось</NuxtLink>
+			<NuxtLink to="/description#oneaxecrist">одноосного кристалла</NuxtLink> регулируемой
+			ориентации и толщины (<NuxtLink to="/description#opticalaxe">оптическая ось</NuxtLink>
 			лежит в плоскости пластины). Падающая на кристалл световая волна состоит из двух
-			<NuxtLink to="/descriptions#linepolar">линейно-поляризованных волн</NuxtLink> (на экране
+			<NuxtLink to="/description#linepolar">линейно-поляризованных волн</NuxtLink> (на экране
 			показан только результирующий вектор <TexI>\vec E)</TexI>, регулировка параметров
 			которых аналогична регулировкам, используемым в разделе "Две волны". На кристалле
 			показаны две взаимно перпендикулярные (главные) оси, одна из которых является
-			<NuxtLink to="/descriptions#opticalaxe">оптической осью</NuxtLink>.
+			<NuxtLink to="/description#opticalaxe">оптической осью</NuxtLink>.
 		</li>
 		<li>
 			Справа вверху &mdash; закон изменения <TexI>\vec E</TexI> от времени на входе в кристалл
@@ -23,7 +23,7 @@
 		</li>
 		<li>
 			Внизу &mdash; закон изменения модуля
-			<NuxtLink to="/descriptions#umovpointing">вектора Умова-Пойнтинга</NuxtLink>&thinsp;
+			<NuxtLink to="/description#umovpointing">вектора Умова-Пойнтинга</NuxtLink>&thinsp;
 			<TexI>\vec S = [\vec E \times \vec H]</TexI> и его среднее значение
 			<TexI text="<\!S\!>" /> в падающей и прошедшей волнах.
 		</li>

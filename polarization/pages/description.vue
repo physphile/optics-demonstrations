@@ -1,5 +1,7 @@
 <script setup lang="ts"></script>
 <template>
-	<div></div>
+	<PageLayout>
+		<DescriptionGeneral />
+	</PageLayout>
 </template>
 <style scoped></style>

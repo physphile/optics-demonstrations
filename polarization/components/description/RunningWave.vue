@@ -5,11 +5,11 @@
 	<ul>
 		<li>
 			Слева вверху &mdash;
-			<NuxtLink to="/descriptions#lineelwave">
+			<NuxtLink to="/description#lineelwave">
 				плоская монохроматическая бегущая электромагнитная волна</NuxtLink
 			>, распространяющаяся в вакууме вдоль оси <TexI>Oy,</TexI> в которой вектор
 			<TexI>\vec E</TexI> направлен вдоль оси <TexI>Oz</TexI> (<NuxtLink
-				to="/descriptions#ploskostpolarizacii"
+				to="/description#ploskostpolarizacii"
 				>плоскость поляризации</NuxtLink
 			>&thinsp;<TexI>zOy)</TexI>, а вектор <TexI>\vec H</TexI> &mdash; вдоль оси
 			<TexI>Ox.</TexI>
@@ -20,7 +20,7 @@
 		</li>
 		<li>
 			Внизу &mdash; закон изменения модуля
-			<NuxtLink to="/descriptions#umovpointing">вектора Умова Пойнтинга</NuxtLink>&thinsp;
+			<NuxtLink to="/description#umovpointing">вектора Умова Пойнтинга</NuxtLink>&thinsp;
 			<TexI>\vec S = [\vec E \times \vec H],</TexI> направленного вдоль оси <TexI>Oy,</TexI> и
 			его среднее значение <TexI text="<\!S\!>."></TexI>
 		</li>
